@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="search">
+            <input type="text" name="search" id="searchbox" placeholder="Search any city ">
+            <button id="searchbtn" onclick="showweather()"><img src="media/search.png" alt=""></button>
+        </div>
+        <div id="weatherinfo">
+            <img class="weathercondition" src="media/rain.png" alt="">
+            <h1 class="temper">11.19°c</h1>
+            <h2 class="city">New York</h2>
+            <div class="metricbtn">
+            <button onclick="showweather()">Celsius (°C)</button>
+            <button onclick="showweatherF()">Fahrenheit (F)</button>
+            <button onclick="showweatherk()">Kelvin (K)</button>
+        </div>
+            <div id="details">
+                <div id="col1">
+                    <img src="media/humidity.png" alt="">
+                    <div>
+                        <h1 class="humidity">10%</h1>
+                        <h3>Humidity</h3>
+                    </div>
+                </div>
+                <div id="col2">
+                    <img src="media/wind.png" alt="">
+                    <div>
+                        <h1 class="windspeed">5 m/s</h1>
+                        <h3>wind speed</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
