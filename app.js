@@ -14,8 +14,6 @@ let windspeed=document.querySelector(".windspeed");
 
 let weathercondition=document.querySelector(".weathercondition");
 
-let apikey="e87fd5672ab8df4c2caabc65b864e1cd";
-
 let apiurl="https://api.openweathermap.org/data/2.5/weather?";
 // for celsuis 
 async function showweather() {
